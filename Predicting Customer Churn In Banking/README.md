@@ -1,5 +1,7 @@
 # Predicting Customer Churn In Banking
 
+## [Blog Post](https://medium.com/@blackbird98/predicting-customer-churn-in-banking-using-ann-75b43289a1bd)
+
 ## Dataset
 
 The dataset 'Churn_Modelling.csv' contains records of 10,000 customers of bank with following columns:
