@@ -43,11 +43,11 @@ By using all the the features we have to predict whether the user will exit the 
     - 3rd layer: Sigmoid
 
 - Hyperparameters
-    - optimizer: 'adam'
-    - loss: 'binary_crossentropy'
-    - metrics: 'accuracy'
-    - batch_size: 10
-    - epochs: 100
+    - optimizer: `'adam'`
+    - loss: `'binary_crossentropy'`
+    - metrics: `'accuracy'`
+    - batch_size: `10`
+    - epochs: `100`
 
 - Accuracy(Subject to change)
     - Training Set: 0.8610
@@ -59,22 +59,22 @@ By using all the the features we have to predict whether the user will exit the 
 
 - Use Dropout technique with certain threshold to decreses overfitting on training set. Applying on this dataset gives accuracy of 0.8321 which meance now data is less overfitted to this tarining set.
 
-- Use GridSearchCV to find best parameters automatically. Enter all the hyperparameters you want to test your network on and after testing averythin it will give best possible accuracy and parameters. I tried with following parameters:
+- Use `GridSearchCV` to find best parameters automatically. Enter all the hyperparameters you want to test your network on and after testing averythin it will give best possible accuracy and parameters. I tried with following parameters:
     - batch_size
-        - 25
-        - 32
+        - `25`
+        - `32`
     - epochs
-        - 100
-        - 500
+        - `100`
+        - `500`
     - optimizer
-        - adam
-        - rmsprop
+        - `adam`
+        - `rmsprop`
 
 - After waking in the morning(yes, it takes long time...), this is what I found:
     - best_parameters
-        - batch_size: 25
-        - epochs: 500
-        - optimizer: rmsprop
+        - batch_size: `25`
+        - epochs: `500`
+        - optimizer: `rmsprop`
     - accuracy
         - 0.8545
 
